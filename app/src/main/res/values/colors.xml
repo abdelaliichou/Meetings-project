@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">@color/black</color>
+    <color name="teal_700">@color/black</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#D9D92F</color>
+    <color name="darkblue2">#242424</color>
+    <color name="darkblue3">#545454</color>
+    <color name="mainpink">#FF4666</color>
+    <color name="mainyellow">#FFB64A</color>
+    <color name="fontmain">#0D1340</color>
+    <color name="colorfirst">#1a1a1a</color>
+    <color name="colorthird">#fac4a2</color>
+    <color name="colorforth">#d3cde6</color>
+    <color name="beckeffect">#7E2B2B2B</color>
+    <color name="colorlast">#d1df42</color>
+    <color name="colorlasLite">#99584A5B</color>
+    <color name="colorgray">#A6DFDFDF</color>
+    <color name="edite_text_hint_color">#B7474747</color>
+    <color name="green">#6CFF49</color>
+    <color name="deliveryText">#2b2b2b</color>
+    <color name="navigation">#1f1d19</color>
+    <color name="back">#80E6E6E6</color>
+    <color name="back2">#ffffff</color>
+    <color name="text_color">#A82B2B2B</color>
+    <color name="edite_text_color">#BE474747</color>
+    <color name="mainblue">#1E30C0E8</color>
+
+</resources>

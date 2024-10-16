@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    tools:context=".View.Home_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/product_sans_bold"
+            android:text="Disscusions"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_25sdp" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/profile_card"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="100dp"
+            app:cardElevation="7dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp">
+
+            <ImageView
+                android:id="@+id/user_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_user" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/off_card"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@+id/profile_card"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="100dp"
+            app:cardElevation="7dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="7dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_off"
+                app:tint="#FF4343" />
+        </com.google.android.material.card.MaterialCardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/searchRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative">
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/done_creating_task_button_back"
+            android:backgroundTint="#5BDFDFDF"
+            android:drawableStart="@drawable/ic_search"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/edite_text_hint_color"
+            android:fontFamily="@font/product_sans_reguler"
+            android:hint="Search for friend"
+            android:includeFontPadding="false"
+            android:inputType="text"
+            android:textColor="@color/edite_text_hint_color"
+            android:textColorHint="@color/text_color"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/clear"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/ic_clear"
+            android:visibility="gone"
+            app:tint="@color/edite_text_hint_color" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/enligne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/product_sans_bold"
+        android:text="Active users"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/images_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_52sdp"
+            android:clipToPadding="false"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp" />
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp">
+
+                <include
+                    layout="@layout/user_layout_shimmer2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_52sdp"
+                    android:layout_weight="1" />
+
+                <include
+                    layout="@layout/user_layout_shimmer2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_52sdp"
+                    android:layout_weight="1" />
+
+                <include
+                    layout="@layout/user_layout_shimmer2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_52sdp"
+                    android:layout_weight="1" />
+
+                <include
+                    layout="@layout/user_layout_shimmer2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_52sdp"
+                    android:layout_weight="1" />
+
+                <include
+                    layout="@layout/user_layout_shimmer2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_52sdp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+    </RelativeLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:paddingBottom="20dp" />
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clipToPadding="false"
+                        android:orientation="vertical"
+                        android:paddingBottom="20dp">
+
+                        <include layout="@layout/user_layout_shimmer" />
+
+                        <include layout="@layout/user_layout_shimmer" />
+
+                        <include layout="@layout/user_layout_shimmer" />
+
+                        <include layout="@layout/user_layout_shimmer" />
+
+                        <include layout="@layout/user_layout_shimmer" />
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+        </RelativeLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</LinearLayout>

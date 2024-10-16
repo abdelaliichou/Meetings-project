@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "109940605034",
+    "project_id": "conference-app-8cd70",
+    "storage_bucket": "conference-app-8cd70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109940605034:android:82dfdd3f566dc5f4360a13",
+        "android_client_info": {
+          "package_name": "com.example.conferenceproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109940605034-2von8e9mp55v9bjr4ljd1ndffbfia3c4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXGJkdaNnm4f33NzCPShK1EaIYcyR4LFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109940605034-2von8e9mp55v9bjr4ljd1ndffbfia3c4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

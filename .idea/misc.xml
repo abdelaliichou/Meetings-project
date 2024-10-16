@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable-v24/done_creating_task_button_back.xml" value="0.172" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable-v24/googlesvg.xml" value="0.172" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable-v24/ic_email.xml" value="0.172" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable-v24/ic_password.xml" value="0.172" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable/alert_dialog_back.xml" value="0.195" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable/call_back_gradient.xml" value="0.195" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable/ic__cloud_upload.xml" value="0.195" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable/ic_applle_phone_end.xml" value="0.195" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable/ic_call_end.xml" value="0.195" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable/ic_clear.xml" value="0.195" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable/ic_logout.xml" value="0.195" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable/ic_modify.xml" value="0.1615" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable/ic_phone.xml" value="0.2145" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable/ic_phone2.xml" value="0.195" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable/ic_search.xml" value="0.195" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable/ic_user.xml" value="0.195" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/drawable/ic_video_call.xml" value="0.2145" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/layout/activity_incomming_call.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/layout/activity_outcomming_call.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/layout/activity_signup.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/layout/activity_test.xml" value="0.17015818725951262" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/layout/activity_welcom.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/layout/user_layout.xml" value="0.9" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/layout/user_layout2.xml" value="0.75" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/layout/user_layout_shimmer.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Conferenceproject/app/src/main/res/layout/user_layout_shimmer2.xml" value="0.75" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

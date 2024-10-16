@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical"
+    tools:context="com.example.conferenceproject.View.Welcom_Activity">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.6" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        app:lottie_autoPlay="true"
+        app:lottie_speed="2"
+        app:lottie_rawRes="@raw/lottier"
+        app:lottie_renderMode="automatic" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.2" />
+
+    <TextView
+        android:id="@+id/main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/product_sans_bold"
+        android:text="Conference app"
+        android:textColor="#0f0f0f"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/product_sans_reguler"
+        android:gravity="center_horizontal"
+        android:text="Contacting your friends has never\n been more easier !"
+        android:textColor="#B7434343"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
+

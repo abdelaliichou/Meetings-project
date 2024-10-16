@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Login_Activity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgound_image" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#511A1A1A" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/welcom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:fontFamily="@font/product_sans_bold"
+            android:text="Welcome back !"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_23sdp"
+            android:transitionName="text" />
+
+        <LinearLayout
+            android:id="@+id/parent_card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_310sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:background="@drawable/done_creating_task_button_back"
+            android:backgroundTint="#92000000"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:padding="@dimen/_15sdp">
+
+            <EditText
+                android:id="@+id/email_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:background="@drawable/done_creating_task_button_back"
+                android:backgroundTint="@color/white"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/edite_text_hint_color"
+                android:fontFamily="@font/product_sans_reguler"
+                android:hint=" Email"
+                android:includeFontPadding="false"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="@color/edite_text_hint_color"
+                android:textSize="15dp"
+                android:transitionName="email" />
+
+            <EditText
+                android:id="@+id/password_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:background="@drawable/done_creating_task_button_back"
+                android:backgroundTint="@color/white"
+                android:drawableStart="@drawable/ic_password"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/edite_text_hint_color"
+                android:fontFamily="@font/product_sans_reguler"
+                android:hint=" Password"
+                android:includeFontPadding="false"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textColorHint="@color/edite_text_hint_color"
+                android:textSize="15dp"
+                android:transitionName="password" />
+
+            <RelativeLayout
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:background="@drawable/done_creating_task_button_back"
+                android:backgroundTint="@color/colorlast"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:transitionName="done">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:text="Login"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/or_text"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="OR"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"
+                android:transitionName="or_text" />
+
+            <RelativeLayout
+                android:id="@+id/google_button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/done_creating_task_button_back"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:transitionName="google">
+
+                <ImageView
+                    android:layout_width="@dimen/_17sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:src="@drawable/googlesvg" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:text="Sign in with google"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_13sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_weight="0.5"
+                android:transitionName="bottom_text">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:text="Don't have an account ?"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_11sdp" />
+
+                <TextView
+                    android:id="@+id/signup_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:text=" Sing up"
+                    android:textColor="@color/colorlast"
+                    android:textSize="@dimen/_11sdp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.7" />
+
+    </LinearLayout>
+
+</RelativeLayout>
